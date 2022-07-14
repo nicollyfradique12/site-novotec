@@ -1,0 +1,134 @@
+<! DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CPCS - Criação de sites e customização de plataformas</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="topo">
+        {Nicolly fradique} Criação de sites e customização de plataformas
+    </header>
+    <nav>
+    <ul class="ul-topo">
+        <li class="menu-lista"><a href="../paginadanicollyv2/pages/inicio.html">Inicio</a></li>
+        <li class="menu-lista"><a href="../paginadanicollyv2/pages/informacoes-pessoais.html">Informações pessoais</a></li>
+        <li class="menu-lista"><a href="../paginadanicollyv2/pages/objetivos-profissionais.html">Objetivos profissionais</a></li>
+        <li class="menu-lista"><a href="../paginadanicollyv2/pages/portifolio.html">Portifolio</a></li>
+        <li class="menu-lista"><a href="../paginadanicollyv2/pages/pagina-de-contato.html">Contato</a></li> 
+    </ul>
+    </nav>
+    <main>
+        <!--Seção principal: vídeo no background-->
+        <section class="bloco-video">
+            <div class="txt-video">
+                <span class="titulo-video"> Hello world!</span><br>
+                <span class="subtitulo-video"> Boas vindas ao meu primeiro 
+                site profissional.</span><br>
+                <a href="../paginadanicollyv2/pages/informacoes-pessoais.html"><button class="cta-secundario-botao">Sobre mim</button></a>
+            </div>
+            <div class="video-container">
+                <div class="color-overlay"></div>
+                <video autoplay loop muted>
+                <source src="../paginadanicollyv2/img/Poppy Field - 16453 (1).mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <!--Seção centralizada: texto + chamada para ação (botão)-->
+        <section class="bloco-centralizado-cta">
+            <h2 class="titulo-centro"> Que site é esse?</h2>
+            <p class="texto">
+            Esse site foi construído no curso de Criação de Sites
+             e Plataformas do Novotec, realizado na Fatec Araras
+              entre março e julho de 2022. Aqui você encontra 
+              informações sobre quem sou e os trabalhos realizados. 
+              Esse site foi construído no Figma, onde foram projetadas
+               as telas e desenvolvido no Visual Studio Code, onde
+               foi escrito o código HTML e CSS. 
+            </p>
+            <a href="../paginadanicollyv2/pages/portifolio.html"><button class="cta-primary" href="">Portfólio</button></a>
+        </div>
+    </section>
+</section>
+<!-- Seção objetivos profissionais (imagem na esquerda e texto na direita) -->
+<section class="bloco-objetivos-profissionais">
+    <div class="foto-esquerda">
+        <img src="../paginadanicollyv2/img/mimimi.gif"
+        width="465" height="316">
+    </div>
+    <div class="txt-direita">
+        <h2 class="titulo-texto">Objetivos profissionais</h2>
+        <p class="corpo">
+            Aqui você encontra meus objetivos profissionais
+        </p>
+        <a href="../paginadanicollyv2/pages/objetivos-profissionais.html"><button class="cta-secundario">Saiba mais</button></a>
+    </div>
+</section>
+<!-- Seção do currículo
+        <section class="bloco-curriculo">
+            <div class="txt-esquerda">
+            <h2 class="titulo-texto"> Currículo</h2>
+            <p class="corpo">
+                Saiba mais sobre meus estudos, experiências profissionais 
+                e cursos complementares.
+            </p>
+            <button class="cta-secundario">Acessar currículo</button>
+            </div>
+            <div class="foto-direita">
+                <img src="../paginadanicollyv2/img/999.jpg"
+                alt="Imagem de um wireframe de página web feito a mão no papel"
+                width="465" height="316">
+            </div>
+        </section> 
+    </section-->
+        <!--Seção de contato - formulário -->
+        <section class="bloco-contato">
+            <div class="foto-esquerda">
+                <img src="../paginadanicollyv2/img/img.pagdecont.jpg">
+            </div>
+            <div class="txt-direita">
+                <h2 class="titulo-texto">Formulário de contato</h2>
+                <form class="form-contato">
+                    <label class="form-label" for="nome">Como gostaria de ser chamado(a)?</label><br>
+                    <input class="form-input" type="text" id="nome" placeholder="Digite seu nome aqui"><br>
+                    <label class="form-label" for="email">Email</label><br>
+                    <input class="form-input" type="email" id="email" placeholder="email@email.com.br"><br>
+                    <label class="form-label" for="telefone">Telefone para contato</label><br>
+                    <input class="form-input" type="number" id="telefone" placeholder="(  ) 98765-4321"><br>
+                    <label class="form-label">Mensagem</label><br>
+                    <textarea class="form-input-mensagem" type="text" id="mensagem" name="mensagem"></textarea><br>
+                    <input type="button" class="botao-form" value="Enviar"></input>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+             <ul>
+                <li><a href="../pages/inicio.html">Inicio</a></li>
+                <li><a href="../pages/informacoes-pessoais.html">Informações pessoais</a></li>
+                <li><a href="../pages/objetivos-profissionais.html">Objetivos profissionais</a></li>
+                <li><a href="../pages/portifolio.html">Portifolio</a></li>
+                <li><a href="../pages/pagina-de-contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <spam>Obrigada pela visita.</spam><br>
+                <spam>Para parcerias de trabalho, entre em contato pelo email:</spam><br>
+                <spam>nicollyfradique27@gmail.com</spam><br>
+                <spam>ou pelo whatsapp</spam><br>
+                <spam>(19)98973-0861</spam><br>
+                </div>
+                <div class="col-sm-4" style=color:white;>
+                    <spam>"faith in the future"</spam><br>
+                    <spam>louis tomlinson</spam>
+                </div>
+            </div>
+        </div>
+        </footer>
+</body>
+</html>
